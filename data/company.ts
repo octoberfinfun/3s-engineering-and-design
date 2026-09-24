@@ -11,8 +11,8 @@ export const company = {
   name: '3S Engineering & Design',
   legalDisplayName: '3S Engineering and Design',
   founded: 2011,
-  phone: '432-687-5611',
-  email: 'contact@3-sservices.com',
+  phone: '432-205-4886',
+  email: 'larry.johansen@3sengdesign.com',
   officeHours: [
     'Monday–Thursday 7:30 AM–5:30 PM (CST)',
     'Friday 7:30 AM–11:30 AM (CST)'
