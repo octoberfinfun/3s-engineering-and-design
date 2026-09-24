@@ -19,7 +19,7 @@ export async function POST(request: Request) {
     const host = process.env.SMTP_HOST;
     const user = process.env.SMTP_USER;
     const pass = process.env.SMTP_PASS;
-    const to = process.env.CONTACT_TO || 'contact@3-sservices.com';
+    const to = process.env.CONTACT_TO || 'larry.johansen@3sengdesign.com';
     const from = process.env.CONTACT_FROM || user;
     const port = Number(process.env.SMTP_PORT || 587);
     const secure = String(process.env.SMTP_SECURE || 'false').toLowerCase() === 'true';
